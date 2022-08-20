@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #264653;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+.navbar {
+  background-color: #2a9d8f;
+  padding: 2rem 0.5rem;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.badge-container {
+  position: relative;
+}
+
+.fa-shopping-cart {
+  background-color: #2a9d8f;
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 2.5rem;
+}
+
+.badge-container .badge {
+  position: absolute;
+  top: -1.6rem;
+  right: 2rem;
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+/* product */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  gap: 10rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  width: 300px;
+  border-radius: 14px;
+}
+.product-image {
+  width: 100%;
+  height: 100%;
+}
+.product-image img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #264653;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #264d5d;
+  padding: 2rem 0;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+.add {
+  background-color: #2a9d8f;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.minus {
+  background-color: #19645b;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+.product-buttons .add:hover,
+.product-buttons .minus:hover {
+  background-color: #264d5d;
+  transition: all 0.3s ease-in-out;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}
